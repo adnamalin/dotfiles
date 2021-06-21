@@ -6,3 +6,6 @@ if ! grep -q "root.*/bin/zsh" /etc/passwd
 then
   sudo chsh -s /bin/zsh root
 fi
+
+# Default to signing git commits
+git config --global commit.gpgsign true

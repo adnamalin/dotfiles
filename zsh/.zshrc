@@ -12,22 +12,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export TERM="xterm-256color"
 
-ZSH_THEME="bullet-train"
-BULLETTRAIN_CUSTOM_MSG=Amanda
-BULLETTRAIN_CUSTOM_BG=black
-BULLETTRAIN_CUSTOM_FG=white
-BULLETTRAIN_DIR_BG=green
-BULLETTRAIN_DIR_FG=white
-BULLETTRAIN_GIT_BG=blue
-BULLETTRAIN_GIT_FG=white
+ZSH_THEME="agnoster"
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-
-BULLETTRAIN_PROMPT_ORDER=(
-  custom
-  dir
-  git
-)
-
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

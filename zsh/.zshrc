@@ -117,8 +117,7 @@ alias stash='git stash'
 alias pop='git stash pop'
 
 alias zsh="code $HOME/.zshrc"
-alias theme="code $HOME/.oh-my-zsh/themes/bullet-train.zsh-theme"
-alias shellconfig="zsh && theme"
+alias z="code $HOME/.zshrc"
 alias t="bin/rails test"
 alias c="bin/console"
 alias sd="bin/server --debug"

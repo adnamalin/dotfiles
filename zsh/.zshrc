@@ -106,12 +106,13 @@ alias ber="bundle exec rake"
 
 alias gs="git show --stat --oneline origin/master..HEAD"
 alias status="git status"
-alias co="git co"
+alias co="git checkout"
 alias commit="git commit -m "
-alias master="git co master"
-alias main="git co main"
+alias add="git add ."
+alias master="git checkout master"
+alias main="git checkout main"
 alias push='git push -u origin HEAD'
-alias pull='git pull '
+alias pull='git pull'
 alias branch='git branch'
 alias stash='git stash'
 alias pop='git stash pop'
